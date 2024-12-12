@@ -22,8 +22,29 @@
     "@openmrs/esm-home-app": "file:esm-home-app.tgz",
     "@openmrs/esm-primary-navigation-app": "file:esm-primary-navigation-app.tgz",
     "@openmrs/esm-login-app": "file:esm-login-app.tgz",
-    "@openmrs/esm-video-call-app": "file:esm-video-call-app.tgz"
+    "@openmrs/esm-video-call-app": "file:esm-video-call-app.tgz",
 
+    "@openmrs/esm-active-visits-app": "next",
+    "@openmrs/esm-appointments-app": "next",
+    "@openmrs/esm-bed-management-app": "next",
+    "@openmrs/esm-help-menu-app": "next",
+    "@openmrs/esm-implementer-tools-app": "next",
+    "@openmrs/esm-laboratory-app": "next",
+    "@openmrs/esm-patient-conditions-app": "next",
+    "@openmrs/esm-patient-list-management-app": "next",
+    "@openmrs/esm-patient-lists-app": "next",
+    "@openmrs/esm-patient-medications-app": "next",
+    "@openmrs/esm-patient-notes-app": "next",
+    "@openmrs/esm-patient-orders-app": "next",
+    "@openmrs/esm-patient-programs-app": "next",
+    "@openmrs/esm-patient-search-app": "next",
+    "@openmrs/esm-patient-tests-app": "next",
+    "@openmrs/esm-patient-vitals-app": "next",
+    "@openmrs/esm-service-queues-app": "next",
+    "@openmrs/esm-user-onboarding-app": "next",
+    "@openmrs/esm-ward-app": "next",
+    "@openmrs/esm-stock-management-app": "next",
+    "@openmrs/esm-billing-app": "next"
   },
   "excludedFrontendModules": []
 }
