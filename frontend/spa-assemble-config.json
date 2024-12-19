@@ -5,7 +5,6 @@
     "@openmrs/esm-patient-allergies-app": "next",
     "@openmrs/esm-patient-attachments-app": "next",
     "@openmrs/esm-patient-banner-app": "next",
-    "@openmrs/esm-patient-chart-app": "next",
     "@openmrs/esm-patient-forms-app": "next",
     "@openmrs/esm-patient-flags-app": "next",
     "@openmrs/esm-patient-immunizations-app": "next",
@@ -23,9 +22,10 @@
     "@openmrs/esm-primary-navigation-app": "file:esm-primary-navigation-app.tgz",
     "@openmrs/esm-login-app": "file:esm-login-app.tgz",
     "@openmrs/esm-video-call-app": "file:esm-video-call-app.tgz",
-
+    "@openmrs/esm-appointments-app": "file:esm-appointments-app.tgz",
+    "@openmrs/esm-patient-chart-app": "file:esm-patient-chart-app.tgz",
+    
     "@openmrs/esm-active-visits-app": "next",
-    "@openmrs/esm-appointments-app": "next",
     "@openmrs/esm-bed-management-app": "next",
     "@openmrs/esm-help-menu-app": "next",
     "@openmrs/esm-implementer-tools-app": "next",
