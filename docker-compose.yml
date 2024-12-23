@@ -1,5 +1,5 @@
 version: "3.7"
-
+ 
 services:
   gateway:
     image: openmrs/openmrs-reference-application-3-gateway:${TAG:-qa}
@@ -9,7 +9,7 @@ services:
       - backend
     ports:
       - "80:80"
-
+ 
   frontend:
     image: openmrs/openmrs-reference-application-3-frontend:${TAG:-qa}
     restart: "unless-stopped"
@@ -23,7 +23,7 @@ services:
       timeout: 5s
     depends_on:
       - backend
-
+ 
   backend:
     image: openmrs/openmrs-reference-application-3-backend:${TAG:-qa}
     restart: "unless-stopped"
@@ -42,7 +42,8 @@ services:
       timeout: 5s
     volumes:
       - openmrs-data:/openmrs/data
-
+      - ./frontend/intelehealth-ui:/usr/local/tomcat/webapps/intelehealth-ui
+ 
   # MariaDB
   db:
     image: mariadb:10.11.7
@@ -61,8 +62,9 @@ services:
     volumes:
       - db-data:/var/lib/mysql
     ports:
-      - "3306:3307"
-
+      - "3306:3306"
+ 
 volumes:
   openmrs-data: ~
   db-data: ~
+ 
