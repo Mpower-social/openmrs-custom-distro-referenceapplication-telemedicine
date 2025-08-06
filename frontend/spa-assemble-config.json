@@ -19,7 +19,7 @@
     "@openmrs/esm-member-profile-app": "file:esm-member-profile.app-1.0.0.tgz",
     "@openmrs/esm-patient-registration-app": "file:esm-patient-registration-app.tgz",
     "@openmrs/esm-home-app": "next",
-    "@openmrs/esm-primary-navigation-app": "file:esm-primary-navigation-app.tgz",
+    "@openmrs/esm-primary-navigation-app": "next",
     "@openmrs/esm-login-app": "file:esm-login-app.tgz",
     "@openmrs/esm-video-call-app": "file:esm-video-call-app.tgz",
     "@openmrs/esm-appointments-app": "file:esm-appointments-app.tgz",
